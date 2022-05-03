@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TodoForm from "./TodoForm";
 import Todo from "./Todo";
 
-function TodoList() {
+const TodoList = () => {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
@@ -54,6 +54,6 @@ function TodoList() {
       />
     </>
   );
-}
+};
 
 export default TodoList;
