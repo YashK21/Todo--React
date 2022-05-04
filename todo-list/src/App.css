@@ -26,6 +26,30 @@ body {
   padding-bottom: 32px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rst_btn {
+  background-color: tomato;
+  /* align-self: flex-end; */
+  color: #e2e2e2;
+  border: none;
+  text-align: right;
+  float: right;
+  border-radius: 2px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.rst_btn:hover {
+  background-color: #e2e2e2;
+  color: tomato;
+  cursor: pointer;
+}
+
 h1 {
   margin: 32px 0;
   color: #fff;
@@ -104,6 +128,10 @@ h1 {
   padding: 16px;
   border-radius: 5px;
   width: 90%;
+}
+
+.todo-row>div:hover {
+  cursor: pointer;
 }
 
 .todo-row:nth-child(4n + 1) {
